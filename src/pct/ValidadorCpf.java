@@ -49,9 +49,9 @@ public class ValidadorCpf {
                 d2=0;
             }
             if(d1 == Character.getNumericValue(cpf.charAt(9)) && (d2 == Character.getNumericValue(cpf.charAt(10)))){
-                System.out.println("CPF VÁLIDO!!");
+                System.out.println("CPF VÁLIDO!!!");
             }else{
-                System.out.println("CPF INVÁLIDO!!");
+                System.out.println("CPF INVÁLIDO!!!");
             }
         }else{
             System.out.println("O CPF: "+ cpf + " tem a quantidade de digitos incorreto");
